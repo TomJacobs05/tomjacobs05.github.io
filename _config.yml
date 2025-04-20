@@ -33,7 +33,6 @@ location: >
 # Pages shown in navbar
 nav_pages:
   - name: publications
-  - name: talks
 
 # Do you want to group your publications by year? {true/false}
 group_pub_by_year: true
