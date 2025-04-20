@@ -5,7 +5,9 @@ sitemap: false
 permalink: /
 ---
 
-I am a PhD candidate at [CISPA Helmholtz Center for Information Security](https://cispa.de) in Saarbrücken, Germany.
+I am a PhD candidate at [CISPA Helmholtz Center for Information Security](https://cispa.de) in Saarbrücken, Germany. 
+
+My research interests lie at the intersection of understanding neural network training dynamics and designing efficient deep learning methods. Concretely, I work with theoretical tools such as mirror flow, regularization techniques, and mean field descriptions to study the effect of overparameterization and improve model efficiency.
 
 
 
