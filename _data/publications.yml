@@ -1,21 +1,19 @@
-- title: "Mask in the Mirror: Implicit Sparsification"
-  venue: The Thirteenth International Conference on Learning Representations
+- title: "Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?"
+  venue: arXiv
   year: 2025
-  authors: Tom Jacobs and Rebekka Burkholz
-  url: https://openreview.net/forum?id=U47ymTS3ut
-  pdf: https://openreview.net/pdf?id=U47ymTS3ut
-  image: 2025_mask_in_the_mirror.jpg
-  abstract: "Continuous sparsification strategies are among the most effective methods for reducing the inference costs and memory demands of large-scale neural networks. A key factor in their success is the implicit L1 regularization induced by jointly learning both mask and weight variables, which has been shown experimentally to outperform explicit L1 regularization. We provide a theoretical explanation for this observation by analyzing the learning dynamics, revealing that early continuous sparsification is governed by an implicit L2 regularization that gradually transitions to an L1 penalty over time. Leveraging this insight, we propose a method to dynamically control the strength of this implicit bias. Through an extension of the mirror flow framework, we establish convergence and optimality guarantees in the context of underdetermined linear regression. Our theoretical findings may be of independent interest, as we demonstrate how to enter the rich regime and show that the implicit bias can be controlled via a time-dependent Bregman potential. To validate these insights, we introduce PILoT, a continuous sparsification approach with novel initialization and dynamic regularization, which consistently outperforms baselines in standard experiments."
+  authors: Tom Jacobs, Chao Zhou, and Rebekka Burkholz
+  url: https://arxiv.org/abs/2504.12883
+  pdf: https://arxiv.org/pdf/2504.12883
+  image: 2025_biases_mirror_framework.jpg
+  abstract: "Implicit bias plays an important role in explaining how overparameterized models generalize well. Explicit regularization like weight decay is often employed in addition to prevent overfitting. While both concepts have been studied separately, in practice, they often act in tandem. Understanding their interplay is key to controlling the shape and strength of implicit bias, as it can be modified by explicit regularization. To this end, we incorporate explicit regularization into the mirror flow framework and analyze its lasting effects on the geometry of the training dynamics, covering three distinct effects: positional bias, type of bias, and range shrinking. Our analytical approach encompasses a broad class of problems, including sparse coding, matrix sensing, single-layer attention, and LoRA, for which we demonstrate the utility of our insights. To exploit the lasting effect of regularization and highlight the potential benefit of dynamic weight decay schedules, we propose to switch off weight decay during training, which can improve generalization, as we demonstrate in experiments."
   bib: |
-    @inproceedings{
-      jacobs2025mask,
-      title={Mask in the Mirror: Implicit Sparsification},
-      author={Tom Jacobs and Rebekka Burkholz},
-      booktitle={The Thirteenth International Conference on Learning Representations},
-      year={2025},
-      url={https://openreview.net/forum?id=U47ymTS3ut}
+    @inproceedings{Jacobs2025MirrorMO,
+    title={Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?},
+    author={Tom Jacobs and Chao Zhou and Rebekka Burkholz},
+    year={2025},
+    url={https://api.semanticscholar.org/CorpusID:277857621}
     }
-
+    
 - title: "Mask in the Mirror: Implicit Sparsification"
   venue: The Thirteenth International Conference on Learning Representations
   year: 2025
