@@ -1,3 +1,19 @@
+- title: "Sign-In to the Lottery: Reparameterizing Sparse Training From Scratch"
+  venue: arXiv
+  year: 2025
+  authors: Advait Gadhikar*, Tom Jacobs*, Chao Zhou, and Rebekka Burkholz
+  url: https://arxiv.org/abs/2504.12801
+  pdf: https://arxiv.org/pdf/2504.12801
+  image: 2025_sign-in.jpg
+  abstract: "The performance gap between training sparse neural networks from scratch (PaI) and dense-to-sparse training presents a major roadblock for efficient deep learning. According to the Lottery Ticket Hypothesis, PaI hinges on finding a problem specific parameter initialization. As we show, to this end, determining correct parameter signs is sufficient. Yet, they remain elusive to PaI. To address this issue, we propose Sign-In, which employs a dynamic reparameterization that provably induces sign flips. Such sign flips are complementary to the ones that dense-to-sparse training can accomplish, rendering Sign-In as an orthogonal method. While our experiments and theory suggest performance improvements of PaI, they also carve out the main open challenge to close the gap between PaI and dense-to-sparse training."
+  bib: |
+    @inproceedings{Gadhikar2025SignInTT,
+    title={Sign-In to the Lottery: Reparameterizing Sparse Training From Scratch},
+    author={Advait Gadhikar and Tom Jacobs and Chao Zhou and Rebekka Burkholz},
+    year={2025},
+    url={https://api.semanticscholar.org/CorpusID:277857423}
+    }
+
 - title: "Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?"
   venue: arXiv
   year: 2025
