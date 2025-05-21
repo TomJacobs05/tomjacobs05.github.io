@@ -15,7 +15,7 @@
     }
 
 - title: "Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?"
-  venue: arXiv
+  venue: Forty-second International Conference on Machine Learning
   year: 2025
   authors: Tom Jacobs, Chao Zhou, and Rebekka Burkholz
   url: https://arxiv.org/abs/2504.12883
@@ -23,11 +23,13 @@
   image: 2025_biases_mirror_framework.jpg
   abstract: "Implicit bias plays an important role in explaining how overparameterized models generalize well. Explicit regularization like weight decay is often employed in addition to prevent overfitting. While both concepts have been studied separately, in practice, they often act in tandem. Understanding their interplay is key to controlling the shape and strength of implicit bias, as it can be modified by explicit regularization. To this end, we incorporate explicit regularization into the mirror flow framework and analyze its lasting effects on the geometry of the training dynamics, covering three distinct effects: positional bias, type of bias, and range shrinking. Our analytical approach encompasses a broad class of problems, including sparse coding, matrix sensing, single-layer attention, and LoRA, for which we demonstrate the utility of our insights. To exploit the lasting effect of regularization and highlight the potential benefit of dynamic weight decay schedules, we propose to switch off weight decay during training, which can improve generalization, as we demonstrate in experiments."
   bib: |
-    @inproceedings{Jacobs2025MirrorMO,
-    title={Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?},
-    author={Tom Jacobs and Chao Zhou and Rebekka Burkholz},
-    year={2025},
-    url={https://api.semanticscholar.org/CorpusID:277857621}
+      @inproceedings{
+      jacobs2025mirror,
+      title={Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?},
+      author={Tom Jacobs and Chao Zhou and Rebekka Burkholz},
+      booktitle={Forty-second International Conference on Machine Learning},
+      year={2025},
+      url={https://api.semanticscholar.org/CorpusID:277857621}
     }
     
 - title: "Mask in the Mirror: Implicit Sparsification"
