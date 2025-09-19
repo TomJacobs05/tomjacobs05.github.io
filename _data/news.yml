@@ -1,9 +1,6 @@
 - data: 18.09.2025
   description: "First author paper accepted: *[Sign-In to the Lottery: Reparameterizing Sparse Training From Scratch](https://arxiv.org/abs/2504.12801)*,Two second author papers accepted: *[The Graphon Limit Hypothesis: Understanding Neural Network Pruning via Infinite Width Analysis (Spotlight)](https://neurips.cc/virtual/2025/poster/119150)* and *[Pay Attention to Small Weights](https://neurips.cc/virtual/2025/poster/117524)*  All at NeurIPS 2025 in San Diego."
 
-- date: 30.06.2025
-  description: "Second author preprint: *[Pay Attention to Small Weights](https://arxiv.org/abs/2506.21374)*"
-
 - date: 04.06.2025
   description: "First author preprint: *[HAM: A Hyperbolic Step to Regulate Implicit Bias](https://arxiv.org/abs/2506.02630)*"
 
