@@ -34,7 +34,7 @@
     }
 
 - title: "Mirror, Mirror of the Flow: How Does Regularization Shape Implicit Bias?"
-  venue: The Forty-secondth International Conference on Machine Learning
+  venue: ICML
   year: 2025
   authors: Tom Jacobs, Chao Zhou, and Rebekka Burkholz
   url: https://arxiv.org/abs/2504.12883
@@ -52,7 +52,7 @@
     }
     
 - title: "Mask in the Mirror: Implicit Sparsification"
-  venue: The Thirteenth International Conference on Learning Representations
+  venue: ICLR
   year: 2025
   authors: Tom Jacobs and Rebekka Burkholz
   url: https://openreview.net/forum?id=U47ymTS3ut
