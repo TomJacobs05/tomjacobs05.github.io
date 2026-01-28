@@ -1,3 +1,22 @@
+- title: "Never Saddle for Reparameterized Steepest Descent as Mirror Flow"
+  venue: ICLR
+  year: 2026
+  authors: Tom Jacobs, Chao Zhou, and Rebekka Burkholz
+  url: https://openreview.net/forum?id=YgudIlQ9nC
+  pdf: https://openreview.net/forum?id=YgudIlQ9nC
+  image: formulamw.png
+  abstract: "What distinguishes modern adaptive methods from gradient descent to favor better generalizing solutions? To study this question for steepest-descent methods, including sign descent (an optimizer closely related to Adam), we introduce steepest mirror flows as a unifying theoretical framework. This enables us to analyze how optimization geometry governs learning dynamics, implicit bias, and sparsity. It also suggests a mechanism that may help explain why Adam and AdamW often outperform SGD in fine-tuning. Focusing on diagonal linear networks and deep diagonal linear reparameterizations, we show that steeper descent promotes saddle-point escape. By contrast, gradient descent typically requires much larger learning rates to escape saddles—regimes that are less common in fine-tuning practice. Furthermore, we find that decoupled weight decay, as in AdamW, stabilizes sparse training by enforcing novel balance equations. Empirical experiments establish that our theoretical insights and hypothesized mechanisms transfer to realistic settings. Together, these results identify two mechanisms through which steepest descent can benefit modern optimization: saddle escape and sparsity."
+  bib: |
+    @inproceedings{
+    Jacobs2026never,
+    title={Never Saddle for Reparameterized Steepest Descent as Mirror Flow},
+    author={Tom Jacobs and Chao Zhou and Rebekka Burkholz},
+    booktitle={The Fourteenth International Conference on Learning Representations},
+    year={2026},
+    url={https://openreview.net/forum?id=YgudIlQ9nC}
+}
+
+
 - title: "Hyperbolic Aware Minimization: Implicit Bias for Sparsity"
   venue: ICLR
   year: 2026
