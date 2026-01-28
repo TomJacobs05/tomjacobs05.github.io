@@ -1,19 +1,19 @@
-- title: "HAM: A Hyperbolic Step to Regulate Implicit Bias"
-  venue: arXiv
-  year: 2025
+- title: "Hyperbolic Aware Minimization: Implicit Bias for Sparsity"
+  venue: ICLR
+  year: 2026
   authors: Tom Jacobs, Advait Gadhikar, Celia Rubio-Madrigal, and Rebekka Burkholz
   url: https://arxiv.org/abs/2506.02630
   pdf: https://arxiv.org/pdf/2506.02630
-  image: magnitudefieldplot.jpg
-  abstract: "Understanding the implicit bias of optimization algorithms has become central to explaining the generalization behavior of deep learning models. For instance, the hyperbolic implicit bias induced by the overparameterization m⊙w--though effective in promoting sparsity--can result in a small effective learning rate, which slows down convergence. To overcome this obstacle, we propose HAM (Hyperbolic Aware Minimization), which alternates between an optimizer step and a new hyperbolic mirror step. We derive the Riemannian gradient flow for its combination with gradient descent, leading to improved convergence and a similar beneficial hyperbolic geometry as m⊙w for feature learning. We provide an interpretation of the the algorithm by relating it to natural gradient descent, and an exact characterization of its implicit bias for underdetermined linear regression. HAM's implicit bias consistently boosts performance--even of dense training, as we demonstrate in experiments across diverse tasks, including vision, graph and node classification, and large language model fine-tuning. HAM is especially effective in combination with different sparsification methods, improving upon the state of the art. The hyperbolic step requires minimal computational and memory overhead, it succeeds even with small batch sizes, and its implementation integrates smoothly with existing optimizers."
+  image: 2dHAMillustrationinvmetric_page-0001.jpg
+  abstract: "Understanding the implicit bias of optimization algorithms is key to explaining and improving the generalization of deep models. The hyperbolic implicit bias induced by pointwise overparameterization promotes sparsity, but also yields a small inverse Riemannian metric near zero, slowing down parameter movement and impeding meaningful parameter sign flips. To overcome this obstacle, we propose Hyperbolic Aware Minimization (HAM), which alternates a standard optimizer step with a lightweight hyperbolic mirror step. The mirror step incurs less compute and memory than pointwise overparameterization, reproduces its beneficial hyperbolic geometry for feature learning, and mitigates the small–inverse-metric bottleneck. Our characterization of the implicit bias in the context of underdetermined linear regression provides insights into the mechanism how HAM consistently increases performance \textemdash even in the case of dense training, as we demonstrate in experiments with standard vision benchmarks. HAM is especially effective in combination with different sparsification methods, advancing the state of the art. 
   bib: |
-    @misc{jacobs2025ham,
-    title={HAM: A Hyperbolic Step to Regulate Implicit Bias},
+    @inproceedings{
+    jacobs2025ham,
+    title={Hyperbolic Aware Minimization: Implicit Bias for Sparsity},
     author={Tom Jacobs and Advait Gadhikar and Celia Rubio-Madrigal and Rebekka Burkholz},
-    year={2025},
-    eprint={2506.02630},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+    booktitle={The Fourteenth International Conference on Learning Representations},
+    year={2026},
+    url={https://openreview.net/forum?id=XKB5Hu0ACY}
     }
 
 - title: "The Graphon Limit Hypothesis: Understanding Neural Network Pruning via Infinite Width Analysis"
