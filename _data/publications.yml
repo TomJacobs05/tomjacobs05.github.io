@@ -4,7 +4,7 @@
   authors: Tom Jacobs, Advait Gadhikar, Celia Rubio-Madrigal, and Rebekka Burkholz
   url: https://arxiv.org/abs/2506.02630
   pdf: https://arxiv.org/pdf/2506.02630
-  image: 2dHAMillustrationinvmetric_page1.png
+  image: 2dHAMillustrationinvmetric_page1_2x.png
   abstract: "Understanding the implicit bias of optimization algorithms is key to explaining and improving the generalization of deep models. The hyperbolic implicit bias induced by pointwise overparameterization promotes sparsity, but also yields a small inverse Riemannian metric near zero, slowing down parameter movement and impeding meaningful parameter sign flips. To overcome this obstacle, we propose Hyperbolic Aware Minimization (HAM), which alternates a standard optimizer step with a lightweight hyperbolic mirror step. The mirror step incurs less compute and memory than pointwise overparameterization, reproduces its beneficial hyperbolic geometry for feature learning, and mitigates the small–inverse-metric bottleneck. Our characterization of the implicit bias in the context of underdetermined linear regression provides insights into the mechanism how HAM consistently increases performance \textemdash even in the case of dense training, as we demonstrate in experiments with standard vision benchmarks. HAM is especially effective in combination with different sparsification methods, advancing the state of the art. "
   bib: |
     @inproceedings{
