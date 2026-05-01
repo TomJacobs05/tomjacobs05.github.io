@@ -6,14 +6,15 @@
   pdf: https://openreview.net/forum?id=o9JP7N8YO9
   image: formulamw.png
   abstract: "Dynamic Sparse Training (DST) methods train neural networks by maintaining sparsity while dynamically adapting the network topology. Despite the promise of reduced computation, DST methods converge significantly slower than dense training, often requiring comparable training time to achieve similar accuracy. We demonstrate both analytically and empirically that Batch Normalization (BN) adversely affects sparse training, and propose SparseOpt — a sparsity-aware optimizer — to address this. Experiments on ResNet models across CIFAR-100 and ImageNet demonstrate consistently faster convergence and improved generalization with our proposed method. Our work highlights the limitations of current normalization layers in sparse training and provides the first systematic study of the interaction between Batch Normalization, sparse layers, and DST, taking a significant step toward making DST practically competitive with dense training."  bib: |
+  bib:
     @inproceedings{
-adnan2026sparseopt,
-title={SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training},
-author={Mohammed Adnan and Rohan Jain and Tom Jacobs and Ekansh Sharma and Rahul G Krishnan and Rebekka Burkholz, and Yani Ioannou},
-booktitle={Forty-third International Conference on Machine Learning},
-year={2026},
-url={https://openreview.net/forum?id=o9JP7N8YO9}
-}
+    adnan2026sparseopt,
+    title={SparseOPt: Addressing Normalization-induced Gradient Skew in Sparse Training},
+    author={Mohammed Adnan and Rohan Jain and Tom Jacobs and Ekansh Sharma and Rahul G Krishnan and Rebekka Burkholz, and Yani Ioannou},
+    booktitle={Forty-third International Conference on Machine Learning},
+    year={2026},
+    url={https://openreview.net/forum?id=o9JP7N8YO9}
+    }
 
 
 - title: "Never Saddle for Reparameterized Steepest Descent as Mirror Flow"
