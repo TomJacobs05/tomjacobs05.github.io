@@ -1,3 +1,6 @@
+- date: 01.05.2026
+  description: "One coauthor paper accepted: *[SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training](https://openreview.net/forum?id=o9JP7N8YO9)* at ICML 2026 in Seoul."
+
 - date: 28.01.2026
   description: "Two first author paper accepted: *[Hyperbolic Aware Minimization: Implicit Bias for Sparsity](https://openreview.net/forum?id=XKB5Hu0ACY)* and *[Never Saddle for Reparameterized Steepest Descent as Mirror Flow](https://openreview.net/forum?id=YgudIlQ9nC)*  all at ICLR 2026 in Rio de Janeiro."
 
