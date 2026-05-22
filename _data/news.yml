@@ -1,3 +1,6 @@
+- data: 22.05.2026
+  description: "Two new preprints on Arxiv! *[Implicit Bias of Mirror Flow in Homogeneous Neural Networks: Sparse and Dense Feature Learning](https://arxiv.org/abs/2605.19458)* and  *[HORST: Composing Optimizer Geometries for Sparse Transformer Training](https://arxiv.org/abs/2605.21104)*  " 
+
 - date: 01.05.2026
   description: "One coauthor paper accepted: *[SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training](https://openreview.net/forum?id=o9JP7N8YO9)* at ICML 2026 in Seoul."
 
