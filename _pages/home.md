@@ -5,9 +5,9 @@ sitemap: false
 permalink: /
 ---
 
-I am a PhD candidate at [CISPA Helmholtz Center for Information Security](https://cispa.de) in the [Relational Machine Learning Group](https://relationalml.github.io/) lead by Dr. Rebekka Burkholz based in Saarbrücken, Germany. 
+I am a PhD candidate at [CISPA Helmholtz Center for Information Security](https://cispa.de) in the [Relational Machine Learning Group](https://relationalml.github.io/). 
 
-My research interests lie at the intersection of understanding neural network training dynamics and designing efficient deep learning methods. Concretely, I work with theoretical tools from non-convex optimization and mathematical analysis such as mirror flow, explicit regularization, mean field descriptions and stochastic differential equations to study the effect of overparameterization, improve model efficiency, and improve generalization performance.
+My research interests lie at the intersection of understanding neural network training dynamics and designing efficient deep learning methods. Concretely, I work with theoretical tools from non-convex optimization and mathematical analysis such as mirror flow, explicit regularization, mean field descriptions and stochastic differential equations to study the effect of overparameterization, improve model efficiency, and improve generalization performance. 
 
 
 
