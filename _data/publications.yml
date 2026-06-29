@@ -1,22 +1,3 @@
-- title: "HORST: Composing Optimizer Geometries for Sparse Transformer Training"
-  venue: Arxiv
-  year: 2026
-  authors: Tom Jacobs, Rohan Jain, and Rebekka Burkholz
-  url: https://arxiv.org/abs/2605.21104
-  pdf: https://arxiv.org/pdf/2605.21104
-  image: formulamw.png
-  abstract: "Sparsifying transformers remains a fundamental challenge, as standard optimizers fail to simultaneously encourage sparsity and maintain training stability. Effective adaptive optimizers exhibit an implicit L_infty bias favoring stability, yet, sparsity requires an L_1 bias. To integrate sparsity, we propose a composition of optimizer steps, which we cast as non-commutative operators to analyze and combine their optimization geometry in a principled way. This yields HORST (Hyperbolic Operator for Robust Sparse Training), a modular optimizer that inherits stability from adaptive methods while inducing L_1 sparsity bias through a hyperbolic mirror map. Our experiments demonstrate its utility for sparse training of transformers on both vision and language tasks. HORST consistently and significantly outperforms AdamW baselines across all sparsity levels, with large gains at higher sparsity."
-  bib: |
-    @misc{jacobs2026horstcomposingoptimizergeometries,
-      title={HORST: Composing Optimizer Geometries for Sparse Transformer Training}, 
-      author={Tom Jacobs and Rohan Jain and Rebekka Burkholz},
-      year={2026},
-      eprint={2605.21104},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2605.21104}, 
-    }
-
 - title: "Implicit Bias of Mirror Flow in Homogeneous Neural Networks: Sparse and Dense Feature Learning"
   venue: Arxiv
   year: 2026
@@ -35,6 +16,43 @@
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2605.19458}, 
     }
+
+  - title: "HORST: Composing Optimizer Geometries for Sparse Transformer Training"
+  venue: HiLD at ICML 2026 Poster
+  year: 2026
+  authors: Tom Jacobs, Rohan Jain, and Rebekka Burkholz
+  url: https://arxiv.org/abs/2605.21104
+  pdf: https://arxiv.org/pdf/2605.21104
+  image: formulamw.png
+  abstract: "Sparsifying transformers remains a fundamental challenge, as standard optimizers fail to simultaneously encourage sparsity and maintain training stability. Effective adaptive optimizers exhibit an implicit L_infty bias favoring stability, yet, sparsity requires an L_1 bias. To integrate sparsity, we propose a composition of optimizer steps, which we cast as non-commutative operators to analyze and combine their optimization geometry in a principled way. This yields HORST (Hyperbolic Operator for Robust Sparse Training), a modular optimizer that inherits stability from adaptive methods while inducing L_1 sparsity bias through a hyperbolic mirror map. Our experiments demonstrate its utility for sparse training of transformers on both vision and language tasks. HORST consistently and significantly outperforms AdamW baselines across all sparsity levels, with large gains at higher sparsity."
+  bib: |
+    @inproceedings{
+      jacobs2026horst,
+      title={{HORST}: Composing Optimizer Geometries for Sparse Transformer Training},
+      author={Tom Jacobs and Rohan Jain and Rebekka Burkholz},
+      booktitle={High-dimensional Learning Dynamics 2026},
+      year={2026},
+      url={https://openreview.net/forum?id=fSQw4Puobo}
+    }
+  
+  - title: "Continuous Sparsification via Minimizing Movement"
+  venue: HiLD at ICML 2026 Poster
+  year: 2026
+  authors: Hoang Pham, Tom Jacobs, Binh Nguyen, Rebekka Burkholz and Long Tran-Thanh
+  url: https://cispa.de/en/research/publications/213131-continuous-sparsification-via-minimizing-movement
+  pdf: https://cispa.de/en/research/publications/213131-continuous-sparsification-via-minimizing-movement
+  image: formulamw.png
+  abstract: "Continuous sparsification is a popular approach for finding efficient sparse subnetworks, optimizing soft masks before applying a hard Top- projection. However, existing methods typically regularize mask variables using flat Euclidean geometry, penalizing local rewirings and disruptive long-range relocations equally. To address this, we propose Continuous Sparsification via Minimizing Movement (CSMM), a geometry-aware framework that treats layer connectivity as a probability allocation on the simplex. By leveraging the minimizing-movement scheme, we regularize the temporal evolution of connectivity using flexible proximal penalty functions. This approach decouples task performance from structural evolution, allowing practitioners to impose specific geometric inductive biases on topology evolution. The experiment shows a promising result on CIFAR10 dataset under ResNet-20 architecture, offering a new approach on continuous sparsification."
+  bib: |
+    @inproceedings{
+  pham2026continuous,
+  title={Continuous Sparsification via Minimizing Movement},
+  author={Hoang Pham and Tom Jacobs and Binh Nguyen and Rebekka Burkholz and Long Tran-Thanh},
+  booktitle={High-dimensional Learning Dynamics 2026},
+  year={2026},
+  url={https://openreview.net/forum?id=nsSLDnJ2uU}
+}
+
 
 - title: "SparseOpt: Addressing Normalization-induced Gradient Skew in Sparse Training"
   venue: ICML
