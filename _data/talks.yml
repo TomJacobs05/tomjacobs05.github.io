@@ -1,4 +1,13 @@
 talks: 
+  - date: 13. May 2026
+    url: https://casa.win.tue.nl/home/event/colloquium-tom-jacobs-cispa-helmholtzcenter-saarbrucken/
+    venue: "CASA colloquium, Technical University of Eindhoven"
+    title: "Controlling Implicit Regularization in Deep Learning via Weight Decay and Mirror Descent"
+   
+  - date: 11. May 2026
+    venue: "Colloquium, Technical University of Twente"
+    title: "Controlling Implicit Regularization in Deep Learning via Weight Decay and Mirror Descent"
+    
   - date: 9. February 2026
     url: https://researchseminars.org/talk/TropicalmathandML/32/
     venue: "Tropical mathematics and machine learning seminar"
