@@ -1,4 +1,9 @@
 talks: 
+  - date: 28. May 2026
+    url: https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-europe
+    venue: "Qualcomm Innovation Fellowship Finalists Presentation"
+    title: "Controlling Implicit Regularization for Sparse Transformers"
+  
   - date: 13. May 2026
     url: https://casa.win.tue.nl/home/event/colloquium-tom-jacobs-cispa-helmholtzcenter-saarbrucken/
     venue: "CASA colloquium, Technical University of Eindhoven"
