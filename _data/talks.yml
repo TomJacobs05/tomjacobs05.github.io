@@ -18,6 +18,10 @@ talks:
     venue: "Colloquium, Technical University of Twente"
     title: "Controlling Implicit Regularization in Deep Learning via Weight Decay and Mirror Descent"
     
+  - date: 9. April 2026
+    venue: "INRIA, Paris"
+    title: "Controlling Implicit Regularization for Sparse Neural Networks"
+    
   - date: 9. February 2026
     url: https://researchseminars.org/talk/TropicalmathandML/32/
     venue: "Tropical mathematics and machine learning seminar"
