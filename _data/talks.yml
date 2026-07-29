@@ -1,5 +1,5 @@
 talks: 
-   - date: 9. July 2026
+  - date: 9. July 2026
     url: https://www.calcvar.nl/workshop-calcvarnl-2026
     venue: "Workshop Calculus of Variations NL 2026"
     title: "Controlling Implicit Bias through Geometry in Deep Learning"
