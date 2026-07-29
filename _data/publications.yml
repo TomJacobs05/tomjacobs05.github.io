@@ -8,11 +8,11 @@
   abstract: "We study the implicit bias of noisy stochastic gradient descent in training wide two-layer ReLU networks for multivariate regression. In a mean-field regime, the training dynamics are approximated by a Wasserstein gradient flow that converges to a unique stationary measure. We characterize the structure of this stationary measure and the predictor it represents. We show that, despite the network being infinitely overparameterized, the learned predictor admits an effectively finite representation: the input weights and biases align along finitely many directions, leading to an effective width collapse. In particular, the solution function is continuous piecewise affine, with affine regions determined by the cells of a finite hyperplane arrangement. The number of learned directions, and hence hyperplanes, is bounded above by 2P−1, where P denotes the number of linear dichotomies realizable on the training inputs. We further establish a non-redundancy property of the learned representation by proving that each learned direction induces a unique ternary activation pattern on the training data. Consequently, the complexity of the learned predictor is governed by the combinatorial geometry of the training data."
   bib: |
     @inproceedings{Liang2026ImplicitBO,
-  title={Implicit Bias of SGD in Multivariate ReLU Networks: Effective Width Collapse},
-  author={Shuang Liang and Tom Jacobs and Guido Mont{\'u}far},
-  year={2026},
-  url={https://api.semanticscholar.org/CorpusID:289934596}
-  }
+      title={Implicit Bias of SGD in Multivariate ReLU Networks: Effective Width Collapse},
+      author={Shuang Liang and Tom Jacobs and Guido Mont{\'u}far},
+      year={2026},
+      url={https://api.semanticscholar.org/CorpusID:289934596}
+    }
 
 - title: "Implicit Bias of Mirror Flow in Homogeneous Neural Networks: Sparse and Dense Feature Learning"
   venue: Arxiv
