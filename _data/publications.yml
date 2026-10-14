@@ -1,3 +1,19 @@
+- title: "Mind the Drift: Diagonal Linear Networks Under Large Learning Rates"
+  venue: Arxiv
+  year: 2026
+  authors: Aniket Sanyal, Tom Jacobs and Guido Montufar
+  url: https://arxiv.org/abs/2610.06120
+  pdf: https://arxiv.org/pdf/2610.06120
+  image: formulamw.png
+  abstract: "Large learning rates can qualitatively change the trajectory of neural network training, often pushing optimization into regimes far from classical gradient-flow behavior. The Edge of Stability (EoS) offers a valuable lens on the dynamics such learning rates induce. We study corresponding dynamics in diagonal linear networks, where we uncover a competition between two distinct implicit biases that jointly determine the sparsity of the recovered solution in regression settings. Complementary to the Gain, which captures the average discretization error accumulated by Gradient Descent relative to Gradient Flow, we derive a closely associated but overlooked quantity: the Drift. Under large learning rates, it describes an imbalance between different discretization errors and represents a systematic shift in the optimization trajectory. While the Gain grows monotonically in certain regimes, and can bias towards denser, flatter interpolators, the impact of the Drift depends on its alignment with potential solutions, which can either counteract or reinforce the effect of the Gain. Consequently, its behavior drives model selection, particularly during early training epochs. To validate our theoretical insights, we introduce an intervention that actively steers the Gain to recover sharper, sparser solutions. Thus, our analysis reveals that large learning rates do not universally hinder the recovery of sparse solutions. On the contrary, they can be harnessed to control the implicit bias of training."
+  bib: |
+    @inproceedings{Sanyal2026MindTD,
+      title={Mind the Drift: Diagonal Linear Networks Under Large Learning Rates},
+      author={Aniket Sanyal and Tom Jacobs and Rebekka Burkholz},
+      year={2026},
+      url={https://api.semanticscholar.org/CorpusID:292654795}
+    }
+
 - title: "Implicit Bias of SGD in Multivariate ReLU Networks: Effective Width Collapse"
   venue: Arxiv
   year: 2026
