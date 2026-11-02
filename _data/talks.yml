@@ -1,9 +1,9 @@
 talks: 
-    - date: 2. November 2026
+  - date: 2. November 2026
     venue: "Annual meeting DFG project SPP2298"
     title: "Controlling Implicit Bias through Geometry in Deep Learning"
     
-   - date: 29. October 2026
+  - date: 29. October 2026
     venue: "LMU Munich"
     title: "Controlling Implicit Bias through Geometry in Deep Learning for Simplicity"
     
