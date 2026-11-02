@@ -17,6 +17,24 @@
       url={https://arxiv.org/abs/2610.16868}, 
     }
 
+- title: "RiPPL: Rigging Post-hoc Pruning Layerwise"
+  venue: AXIOM workshop at NeurIPS 2026
+  year: 2026
+  authors: Mutahar Aamir, Tom Jacobs, and Rebekka Burkholz
+  url: https://openreview.net/forum?id=Br3FjOx6i6
+  pdf: https://openreview.net/forum?id=Br3FjOx6i6
+  image: formulamw.png
+  abstract: "Compressing large language models (LLMs) faces two great challenges: the efficiency of the compression technique and performance of the compressed model. Sparse training techniques that achieve state-of-the-art results on standard vision models rarely scale to the language domain. Post-hoc pruning promises to reduce the memory and computational costs at inference without the expense of retraining or pretraining adaptation. As pretrained weights stay frozen, the calibration data size is limited, and errors introduced by pruning are not repaired through additional optimization, however, this approach struggles to achieve good performance in high sparsity regimes. To improve upon this limitation, we introduce RiPPL (Rigging Post-hoc Pruning Layerwise), a layerwise reformulation of dynamic prune-and-regrow optimization. Similar to other post-hoc pruning methods, RiPPL prunes one layer at a time. While it leaves the pretrained weights unchanged, it gains flexibility by adapting the mask. Experiments on standard benchmarks demonstrate the potential of RiPPL to transfer the flexibility of dynamic sparse training to the more efficient Post-hoc pruning setting."
+  bib: |
+    @inproceedings{
+      aamir2026rippl,
+      title={Ri{PPL}: Rigging Post-hoc Pruning Layerwise},
+      author={Mutahar Aamir and Tom Jacobs and Rebekka Burkholz},
+      booktitle={AXIOM: Foundations of Efficient Deep Learning},
+      year={2026},
+      url={https://openreview.net/forum?id=Br3FjOx6i6}
+    }
+
 - title: "BMuon: Budgeting Muon's Spectral Geometry for Structured Compressibility"
   venue: Arxiv
   year: 2026
